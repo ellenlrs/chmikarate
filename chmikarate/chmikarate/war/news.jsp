@@ -19,6 +19,7 @@
 		<div class="post">
 			<h2 class="title">最近消息</h2>
 			<div class="entry"><p>
+			<!-- 
 			2010年8月15日（日）下午1：30～3：00於民生社區活動中心10F舉行<br/><br/>
 			<strong>台灣空手道之父 淺井哲彥首席師範逝世四週年紀念會 暨<br/>
 			IJKA國際日本武術空手道會淺井流<br/>
@@ -27,6 +28,10 @@
 			IJKA&nbsp;&nbsp;總本部道館&nbsp;&nbsp;哲彥館<br/>
 			主席師範&nbsp;&nbsp;陳宏宗<br/>
 			館&nbsp;&nbsp;&nbsp;&nbsp;長&nbsp;陳興桂&nbsp;敬邀<br/>
+			 -->
+			因紀念會籌備規模擴大，原預定場地不敷使用，需另覓新場地舉行典禮。<br />
+				將於近期決定新場地並立即通告。
+				<br />
 			</p>
 			</div>
 	</div>
