@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body { behavior:url("/Scripts/csshover.htc"); }
+#main{ clear:both; margin:5px 1px 0 1px; }
+.lcontainer{float:left; width:193px;margin:0 20px 0 0; background:url(/images/news/news_bg.gif) no-repeat #eee;min-height:590px;height:auto !important;height:590px;overflow:visible;}
+.rcontainer{float:left;width:735px;}
+.newstitle{font-size:14px;background:url(/images/news/news_bg.gif) no-repeat -199px -1px;padding:0 0 0 12px;color:#d12e6d;}
+.pages-top{text-align:right;}
+.pages-bottom{margin:5px auto;text-align:center;}
+.pages-bottom a:link,.pages-bottom a:visited,.page-change a:hover{margin:0 1px;padding:0 5px 2px;vertical-align:bottom;display:inline-block;_display:inline;}
+.pg-now{padding:2px 8px;}
+.newslist-wrap{ background:#d9d9d9; border-top:4px solid #d12e6f; margin:5px 0 0 0; }
+.newslist-table{border-collapse:collapse;table-layout: auto;border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9;width:100%;}
+.newslist-table tr{background:#fff;}
+.newslist-table tr td{border-bottom:1px dotted #606060;padding:9px 0 9px 0;}
+.newslist-table tr:hover{background:#fee9f0;border-bottom:1px dotted #606060;}
+.newslist-table th{padding:8px 4px 7px 4px;font-weight:bold;color:#666;}
+.newslist-table .newslist-title,.newslist-table tr.newslist-title:hover{background:#f4f4f4;border:none;width:84%;}
+.newslist-table .newslist-num{padding:9px 19px 9px 15px;width:4%;color:#326696;}
+.newslist-ititle{}
+.newslist-podate,.newslist-podated{width:13%;}
+.newslist-podate a:link,.newslist-podate a:visited,.newslist-podate a:hover{text-decoration:none;color:#666;padding:0px 15px 0px 4px;background:url(/images/news/news_bg.gif) no-repeat 50px -602px #f4f4f4;}
+.newslist-podated a:link,.newslist-podated a:visited,.newslist-podated a:hover{text-decoration:none;color:#666;padding:0px 15px 0px 4px;background:url(/images/news/news_bg.gif) no-repeat 50px -641px #f4f4f4;}
+/* yaodian100_newsct.html */
+.newsct-wrap{ background:#d9d9d9; border-top:4px solid #d12e6f; margin:5px 0 0 0; }
+.newsct-table{border-collapse:collapse;table-layout: auto;border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9;width:100%;border-bottom:1px solid #d9d9d9;width:100%;}
+.newsct-table tr{background:#fff;padding:9px 0 9px 0;}
+.newsct-table th{padding:8px 4px 7px 4px;font-weight:bold;color:#666;}
+.newsct-table .newsct-title{background:#f4f4f4;}
+.newsct-title{padding:8px 4px 7px 4px;font-weight:bold;color:#666;}
+.newsct-ititle{ font-size:12px; }
+.newsct-podate{width:20%;}
+.news-content{padding:10px;}
+/* 閫捱摰孵姄�⊥�甇Ⅱ�� */
+.clearfix:after,#main:after{content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix,#main{display: inline-block;}
+html[xmlns] .clearfix,html[xmlns] #main{display: block;}
+* html .clearfix,* html  #main{height: 1%;}
+/* End hide from IE-mac */

@@ -10,6 +10,7 @@
 <html>
 	<head>
     <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+    <script src="/js/ckeditor.js" type="text/javascript"></script>
   </head>
   <body>
 
@@ -58,7 +59,15 @@ to include your name with greetings you post.</p>
 %>
 
     <form action="/sign" method="post">
-      <div><textarea name="content" rows="3" cols="60"></textarea></div>
+    <!--   <div><textarea name="content" rows="3" cols="60"></textarea></div> -->
+     	<div style="width:300px;"><span id="annContexTip" class="msg rn" style="display:none;"></span><br/></div>
+				<div id="ann_ta_div" style="width:600px;">
+					<textarea name="content" id="ann_ta" cols="30" rows="5"></textarea>
+					<script type="text/javascript">
+						CKEDITOR.replace('ann_ta');
+						CKEDITOR.config.contentsCss = '/css/yaodian100_news.css';
+					</script>
+				</div>
       <div><input type="submit" value="Post Greeting" /></div>
     </form>
 
