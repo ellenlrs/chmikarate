@@ -10,7 +10,13 @@
 <html>
 	<head>
     <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+    <script type="text/javascript" charset="UTF-8" src="/js/jquery-1.4.2.min.js"></script>
     <script src="/js/ckeditor.js" type="text/javascript"></script>
+    <script type="text/javascript"> 
+		 $(function() {
+				alert('hello');
+		 });
+	 </script>
   </head>
   <body>
 
