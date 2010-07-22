@@ -40,7 +40,8 @@
 
 <br/><br/><br/><br/><br/><br/><br/>
 <div class="post">
-			<h2 class="title">首頁最新消息﹣三則</h2>	
+<h2 class="title">首頁最新消息﹣三則</h2>
+	<div class="news">
 			<%
     PersistenceManager pm = PMF.get().getPersistenceManager();
     String querys = "select from " + HomeNews.class.getName()+ " order by date desc";
@@ -54,16 +55,16 @@
     } else {
         for (HomeNews g : homenews) {
 %>
-<blockquote><%= g.getContent() %></blockquote>
-
+<%= g.getContent() %>
+<br/>
 <a href="/news.jsp">詳細內容...</a>
 <HR/>
 <%
+
         }
     }
     pm.close();
 %>
-
     <form action="/homenewsservlet" method="post">
        <!-- <div><textarea name="content" rows="3" cols="60"></textarea></div><br/> -->
        <div style="width:300px;height:20px"><span id="annContexTip" class="msg rn" style="display:none;"></span><br/></div>
@@ -76,7 +77,7 @@
 				</div>
       <div><input type="submit" value="Post HomeNews" /></div>
     </form>
-			
+			</div>
 	</div>
 </div>
 </body>

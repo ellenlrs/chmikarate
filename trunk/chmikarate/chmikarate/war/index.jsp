@@ -1,4 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.List" %>
+<%@ page import="javax.jdo.PersistenceManager" %>
+<%@ page import="com.google.appengine.api.users.User" %>
+<%@ page import="com.google.appengine.api.users.UserService" %>
+<%@ page import="com.google.appengine.api.users.UserServiceFactory" %>
+<%@ page import="javax.jdo.Query"%>
+<%@ page import="com.chmikarate.HomeNews" %>
+<%@ page import="com.chmikarate.PMF" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -19,6 +27,7 @@
 	<!-- start content -->
 	<div class="post">
 			<h2 class="title">最新消息</h2>
+			<!-- 
 			<h2 class="title">2010.07.21</h2>
 			<div class="entry">
 				<p>
@@ -44,7 +53,35 @@
 				<a href="news.jsp">詳細內容...</a>
 			</p>
 			</div>
+		 -->
+		<div class="news">
+			<%
+			    PersistenceManager pm = PMF.get().getPersistenceManager();
+			    String querys = "select from " + HomeNews.class.getName()+ " order by date desc";
+			    Query query = pm.newQuery(querys);
+			    query.setRange(0, 3);
+			    List<HomeNews> homenews = (List<HomeNews>) query.execute();
+			    if (homenews.isEmpty()) {
+			%>
+			<p>The homenews has no messages.</p>
+			<%
+			    } else {
+			        for (HomeNews g : homenews) {
+			%>
+			<%= g.getContent() %>
+			<br/>
+			<a href="/news.jsp">詳細內容...</a>
+			<HR/>
+			<%
+			        }
+			    }
+			    pm.close();
+			%>
 		</div>
+		
+		
+		
+	</div>
 	
 		<div class="post">
 			<h2 class="title">全民道館簡介</h2>
