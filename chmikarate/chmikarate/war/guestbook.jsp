@@ -14,7 +14,7 @@
     <script src="/js/ckeditor.js" type="text/javascript"></script>
     <script type="text/javascript"> 
 		 $(function() {
-				alert('hello');
+				//alert('hello');
 		 });
 	 </script>
   </head>
