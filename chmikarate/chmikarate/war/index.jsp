@@ -27,9 +27,19 @@
 	<!-- start content -->
 	<div class="post">
 			<h2 class="title">最新消息</h2>
-			<!-- 
-			<h2 class="title">2010.07.21</h2>
+			<h2 class="title">2010.08.18</h2>
 			<div class="entry">
+				<p>
+				台灣空手道之父 淺井哲彥首席師範逝世四週年紀念會 暨
+IJKA國際日本武術空手道會淺井流
+總本部道館﹣哲彥館 成立大會
+
+大會於 2010年8 月15 日 圓滿舉行
+				<br />
+				<a href="news.jsp">詳細內容...</a>
+			</p>
+			<HR/>
+			<h2 class="title">2010.07.21</h2>
 				<p>
 				現將場地改至 台北市立興雅國中活動中心三樓舉行<br />
 				(台北市信義區松德路168巷15號)
@@ -44,42 +54,45 @@
 				<br />
 				<a href="news.jsp">詳細內容...</a>
 			</p>
-			<HR/>
-			<h2 class="title">2010.07.01</h2>
-				 <p>
-				為緬懷台灣空手道之父&nbsp;&nbsp;&nbsp;&nbsp;淺井哲彥首席師範（1935.6.7~2006.8.15)，全民道館在國際空手道界將以「哲彥館」為名。<br />
-				2010年8月15日（日）於民生社區活動中心10F（民生東路三民路圓環邊）舉行。
-				<br />
-				<a href="news.jsp">詳細內容...</a>
-			</p>
+			<!--
+				<HR/>
+				<h2 class="title">2010.07.01</h2>
+					 <p>
+					為緬懷台灣空手道之父&nbsp;&nbsp;&nbsp;&nbsp;淺井哲彥首席師範（1935.6.7~2006.8.15)，全民道館在國際空手道界將以「哲彥館」為名。<br />
+					2010年8月15日（日）於民生社區活動中心10F（民生東路三民路圓環邊）舉行。
+					<br />
+					<a href="news.jsp">詳細內容...</a>
+				</p>
+			-->
 			</div>
+		 
+		 <!-- for homenews function
+			<div class="news">
+				<%
+				    PersistenceManager pm = PMF.get().getPersistenceManager();
+				    String querys = "select from " + HomeNews.class.getName()+ " order by date desc";
+				    Query query = pm.newQuery(querys);
+				    query.setRange(0, 3);
+				    List<HomeNews> homenews = (List<HomeNews>) query.execute();
+				    if (homenews.isEmpty()) {
+				%>
+				<p>The homenews has no messages.</p>
+				<%
+				    } else {
+				        for (HomeNews g : homenews) {
+				%>
+				<%= g.getContent() %>
+				<br/>
+				<a href="/news.jsp">詳細內容...</a>
+				<HR/>
+				<%
+				        }
+				    }
+				    pm.close();
+				%>
+			</div>
+		
 		 -->
-		<div class="news">
-			<%
-			    PersistenceManager pm = PMF.get().getPersistenceManager();
-			    String querys = "select from " + HomeNews.class.getName()+ " order by date desc";
-			    Query query = pm.newQuery(querys);
-			    query.setRange(0, 3);
-			    List<HomeNews> homenews = (List<HomeNews>) query.execute();
-			    if (homenews.isEmpty()) {
-			%>
-			<p>The homenews has no messages.</p>
-			<%
-			    } else {
-			        for (HomeNews g : homenews) {
-			%>
-			<%= g.getContent() %>
-			<br/>
-			<a href="/news.jsp">詳細內容...</a>
-			<HR/>
-			<%
-			        }
-			    }
-			    pm.close();
-			%>
-		</div>
-		
-		
 		
 	</div>
 	
