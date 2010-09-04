@@ -21,6 +21,16 @@
 <!-- start page -->
 <div id="page">
 			<div class="post">
+				<h2 class="title">最近消息 - 2010.09.04</h2>
+				<div class="entry"><p>
+					2010年9月26日 謝師宴及 陳宏宗主席師範慶生會，下午 18:00 入席， 18:30 開席。<br /><br />
+				地點: 上海鄉村(仁愛店)  台北市仁愛路一段17號 地下二樓<br />
+			      tel: 02-23965154<br />
+			      (有停車場)<br />
+					</p>
+				</div>
+			</div>
+			<div class="post">
 				<h2 class="title">最近消息 - 2010.8.20</h2>
 				<div class="entry"><p>
 					2010.9.26道館昇段晉級審查。<br />
