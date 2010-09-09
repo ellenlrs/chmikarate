@@ -28,6 +28,7 @@
 			      tel: 02-23965154<br />
 			      (有停車場)<br />
 					</p>
+					<img src="http://lh3.ggpht.com/_YLRSnet3Hu8/TIjY9-inQFI/AAAAAAAAAl8/QlSTSuAT90o/s800/image003.png" />
 				</div>
 			</div>
 			<div class="post">
