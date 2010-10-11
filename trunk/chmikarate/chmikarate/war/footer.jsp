@@ -8,7 +8,7 @@
 	<br/>
 		連絡我們：<a href="mailto:chmikarate@gmail.com">chmikarate@gmail.com</a>
 	<br/>
-	全民道館　地址：台北市民生東路五段137巷6弄6號1樓　電話：(02) 2766-8839<BR/>
+	全民道館　地址：台北市民生東路五段137巷6弄6號1樓　電話：(02) 2766-8839 &nbsp; FAX: 02-2769-1581<BR/>
 	Copyright© 2010 chmikarate.com.tw   All Rights Reserved.
 	</p>
 </div>

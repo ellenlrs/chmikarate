@@ -83,7 +83,6 @@
 			<tr><td>台北市國術會白鸙拳委員會</td><td valign="top">總教練</td></tr>
 			<tr><td>全民道館</td><td valign="top">館長</td></tr>
 			<tr><td>日本,香港,中國,歐美技術講習會</td><td valign="top">國際指導</td></tr>
-			<tr><td>日本空手松濤會台灣本部</td><td valign="top">總教練</td></tr>
 			<tr><td>中華民國武術協會</td><td valign="top">九段</td></tr>
 			</table>
 		</td>
@@ -129,15 +128,7 @@
 	<tr>
 		<td colspan="5" valign="top" class="line">&nbsp;</td>
 	</tr>
-	<tr>
-		<td valign="top"></td>
-		<td valign="top"><span class="red_body">賴醒民</span><br />
-		白鶴二高蹤鶴拳名師</td>
-		<td valign="top">&nbsp;</td>
-		<td valign="top">&nbsp;</td>
-		<td valign="top"><span class="red_body"></span><br />
-		</td>
-	</tr>
+	
 	
 </table>
 </div>
