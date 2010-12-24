@@ -21,6 +21,20 @@
 <!-- start page -->
 <div id="page">
 			<div class="post">
+				<h2 class="title">最近消息 - 2010.12.25</h2>
+				<div class="entry"><p>
+					茲訂於100年01月16日（週日）舉行『忘年會聚餐』敬請家長及學
+				員踴躍出席與參加<br />
+				時 間：下午18時入席；18時30分開席<br />
+				地 點：臺北市中正區仁愛路一段17號B2（青少年育樂中心）<br />
+				餐廳名稱：上海鄉村（仁愛店）<br />
+				費 用：成人2000元；學生1500元；攜伴者每位另繳1000元<br />
+				★☆請於100年01月09日（週日）前完成確認★☆<br />
+					</p>
+					<img src="http://lh3.ggpht.com/_YLRSnet3Hu8/TIjY9-inQFI/AAAAAAAAAl8/QlSTSuAT90o/s800/image003.png" />
+				</div>
+			</div>
+			<div class="post">
 				<h2 class="title">最近消息 - 2010.12.10</h2>
 				<div class="entry">
 				<h3><u>99年第八屆體委盃全國學生安全競技空手道錦標賽</u></h3><br />
