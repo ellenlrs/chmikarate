@@ -18,13 +18,9 @@
 <jsp:include page="/header.jsp"/>
 <!-- end header -->
 </div>
+<br/><br/>
 <!-- start page -->
 <div id="page">
-
-
-
-
-
 			<div class="post">
 				<h2 class="title">最近消息 - 2011.07.08</h2>
 				<div class="entry"><p>
@@ -37,8 +33,6 @@
 					<a href="20110621.doc">點我下載競賽規程／技術講習會／友誼賽報名表</a>
 				</div>
 			</div>
-
-
 			<div class="post">
 				<h2 class="title">最近消息 - 2010.12.25</h2>
 				<div class="entry"><p>
